@@ -1,0 +1,31 @@
+{
+  "name": "synthetic-horizon-database",
+  "version": "1.2.3",
+  "description": "Database tổng hợp ngắn gọn cho Fca-Horizon-Remake",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HarryWakazaki/Synthetic-Horizon-Database"
+  },
+  "dependencies": {
+    "lodash": "latest",
+    "node-fetch": "2.6.0",
+    "better-sqlite3": "7.4.5",
+    "sqlite3": "5.0.3",
+    "sqlite": "4.0.21"
+  },
+  "keywords": [
+    "Synthetic",
+    "Horizon",
+    "Database"
+  ],
+  "author": "KanzuWakazaki",
+  "license": "ISC"
+
+,"_resolved": "https://registry.npmjs.org/synthetic-horizon-database/-/synthetic-horizon-database-1.2.3.tgz"
+,"_integrity": "sha512-vWbKvYd5wblS49bwm8hfXeqXWcpOnCklMT0tCjJYROxtzaXpgbAjpuZZMvtutpW07kd8G9onVaLf/TXYS5LIng=="
+,"_from": "synthetic-horizon-database@1.2.3"
+}

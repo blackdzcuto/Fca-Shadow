@@ -1,0 +1,137 @@
+{
+  "version":  "1.0.0",
+  "_from": "fca-shadow@latest",
+  "_id": "fca-shadow@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-2xecx6/ZFQ36oDYjDMrqy/M8eV7T3ejfg49hGgVflW4/npE2RMhJENFct4Tc5Ao7RTAc358r4MEQPJuNhjKKGQ==",
+  "_location": "/fca-shadow",
+  "_phantomChildren": {
+    "ansi": "0.3.1",
+    "core-util-is": "1.0.3",
+    "delegates": "1.0.0",
+    "es6-object-assign": "1.1.0",
+    "graceful-fs": "4.2.9",
+    "has-unicode": "2.0.1",
+    "inherits": "2.0.4",
+    "is-arguments": "1.1.1",
+    "is-generator-function": "1.0.10",
+    "is-nan": "1.3.2",
+    "is-typed-array": "1.1.10",
+    "isarray": "1.0.0",
+    "jsonfile": "6.1.0",
+    "lodash.pad": "4.5.1",
+    "lodash.padend": "4.6.1",
+    "lodash.padstart": "4.6.1",
+    "lru-cache": "6.0.0",
+    "object-is": "1.1.5",
+    "process-nextick-args": "2.0.1",
+    "universalify": "2.0.0",
+    "util-deprecate": "1.0.2",
+    "which-typed-array": "1.1.9"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "fca-shadow@latest",
+    "name": "fca-shadow",
+    "escapedName": "fca-shadow",
+    "rawSpec": "latest",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/fca-shadow/-/fca-shadow-1.0.1.tgz",
+  "_shasum": "860a21c11d0deb3a992b13af6844d5d1e7014019",
+  "_spec": "fca-shadow@latest",
+  "_where": "/home/runner/fca-shadow",
+  "author": {
+    "name": "Nguyễn Thanh Mài"
+  },
+  "bugs": {
+    "url": "https://github.com/blackdzcuto/fca-shadow"
+  },
+  "bundleDependencies": [],
+  "dependencies": {
+    "aes-js": "latest",
+    "assert": "latest",
+    "axios": "^1.2.1",
+    "bluebird": "^2.11.0",
+    "chalk": "4.1.2",
+    "chalkercli": "^1.6.4",
+    "cheerio": "^1.0.0-rc.10",
+    "crypto": "latest",
+    "crypto-js": "latest",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.0",
+    "https-proxy-agent": "^4.0.0",
+    "mqtt": "^4.2.8",
+    "npmlog": "^1.2.0",
+    "request": "^2.53.0",
+    "semver": "",
+    "websocket-stream": "^5.5.0"
+  },
+  "deprecated": true,
+  "description": "FCA Chat Bot API được duy trì và phát triển bởi Nguyễn Thanh Mài ",
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "mocha": "^7.0.1",
+    "prettier": "^1.11.1"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "engines": {
+    "node": ">=10.x"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "rules": {
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-unused-vars": [
+        1,
+        {
+          "argsIgnorePattern": "^_"
+        }
+      ]
+    }
+  },
+  "homepage": "https://github.com/Blackdzcuto/fca-shadow#readme",
+  "keywords": [
+    "Fca",
+    "fca bot",
+    "fca",
+    "fca-shadow",
+    "Fca-shadow-remake"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "fca-shadow",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/blackdzcuto/fca-shadow.git"
+  },
+  "scripts": {
+    "lint": "eslint **.js",
+    "prettier": "prettier utils.js src/* --write",
+    "test": "mocha"
+  }
+}
